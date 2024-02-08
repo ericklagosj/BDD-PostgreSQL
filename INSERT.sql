@@ -472,9 +472,9 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 ('345', 'Natales', '0345', '56', '2'),--última Esperanza
 ('346', 'Torres del Paine', '0346', '56', '2');
 
-/*
+
 --FORMA 1
-INSERT INTO HUSO_HORARIO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
+INSERT INTO HUSO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
 ('1','-8','18'),
 ('2','-16','18'),
 ('3','-24','18'),
@@ -494,15 +494,8 @@ INSERT INTO HUSO_HORARIO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
 
 --PD: de ser asi hay que agregar el atributo valor 2 en tabla "HUSO_HORARIO"
 
---FORMA 2
-INSERT INTO HUSO_HORARIO (ID_HUSO_HORARIO, VALOR) VALUES
-('1','-8'),
-('2','-16'),
-('3','-24'),
-('4','-32'),
-('5','-40'),
-('6','-48'),
-('7','-56'),
-('8','-64');
 
-*/
+
+
+
+
