@@ -471,3 +471,38 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 ('344', 'Timaukel', '0344', '55', '2'),
 ('345', 'Natales', '0345', '56', '2'),--última Esperanza
 ('346', 'Torres del Paine', '0346', '56', '2');
+
+/*
+--FORMA 1
+INSERT INTO HUSO_HORARIO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
+('1','-8','18'),
+('2','-16','18'),
+('3','-24','18'),
+('4','-32','18'),
+('5','-40','18'),
+('6','-48','18'),
+('7','-56','18'),
+('8','-64','18'),
+('1','-8','19'),
+('2','-16','19'),
+('3','-24','19'),
+('4','-32','19'),
+('5','-40','19'),
+('6','-48','19'),
+('7','-56','19'),
+('8','-64','19');
+
+--PD: de ser asi hay que agregar el atributo valor 2 en tabla "HUSO_HORARIO"
+
+--FORMA 2
+INSERT INTO HUSO_HORARIO (ID_HUSO_HORARIO, VALOR) VALUES
+('1','-8'),
+('2','-16'),
+('3','-24'),
+('4','-32'),
+('5','-40'),
+('6','-48'),
+('7','-56'),
+('8','-64');
+
+*/
