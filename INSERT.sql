@@ -1,6 +1,6 @@
 
 /*Inserción de Regiones de Chile*/
-INSERT INTO REGIÓN (ID_REGIÓN, NOMBRE_REGIÓN, CUT_REGIÓN) VALUES
+INSERT INTO REGION (ID_REGION, NOMBRE_REGION, CUT_REGION) VALUES
 
 ('01', 'Arica y Parinacota', '15'),
 ('02', 'Tarapacá', '01'),
@@ -9,7 +9,7 @@ INSERT INTO REGIÓN (ID_REGIÓN, NOMBRE_REGIÓN, CUT_REGIÓN) VALUES
 ('05', 'Coquimbo', '04'),
 ('06', 'Valparaíso', '05'),
 ('07', 'Metropolitana', '13'),
-('08', 'O''Higgins', '06'),
+('08', 'OHiggins', '06'),
 ('09', 'Maule', '07'),
 ('10', 'Ñuble', '16'),
 ('11', 'Biobío', '08'),
@@ -21,7 +21,7 @@ INSERT INTO REGIÓN (ID_REGIÓN, NOMBRE_REGIÓN, CUT_REGIÓN) VALUES
 
 
 /*Inserción de Provincias de Chile*/
-INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGIÓN) VALUES
+INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGION) VALUES
 
 ('01', 'Arica', '001', '01'), -- Arica y Parinacota
 ('02', 'Parinacota', '002', '01'), 
@@ -81,9 +81,9 @@ INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGIÓN
 ('56', 'Última Esperanza', '056', '16');
 
 /*Inserción de Distritos de Chile*/
-{
+
     
-    INSERT INTO DISTRITO (ID_DISTRITO, DISTRITO, ID_REGIÓN) VALUES
+    INSERT INTO DISTRITO (ID_DISTRITO, URBANO, ID_REGION) VALUES
 
     ('01', 'DISTRITO_1', '01'),  -- Arica y Parinacota
     ('02', 'DISTRITO_2', '02'),  -- Tarapacá
@@ -113,7 +113,7 @@ INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGIÓN
     ('26', 'DISTRITO_26', '14'), -- Los Lagos
     ('27', 'DISTRITO_27', '15'), -- Aysén
     ('28', 'DISTRITO_28', '16'); -- Magallanes
-}
+
 
 /*Inserción de Categoría*/
 INSERT INTO CATEGORÍA (ID_CATEGORÍA, NOMBRE_CATEGORÍA) VALUES
@@ -454,7 +454,7 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 ('327', 'Guaitecas', '0327', '49', '2'),
 ('328', 'Aysén', '0328', '49', '2'),
 ('329', 'Cochrane', '0329', '50', '2'),--Capitán Pratt
-('330', 'O' 'Higgins', '0330', '50', '2'),
+('330', 'OHiggins', '0330', '50', '2'),
 ('331', 'Tortel', '0331', '50', '2'),
 ('332', 'Coyhaique', '0332', '51', '2'),--Coyhaique
 ('333', 'Lago Verde', '0333', '51', '2'),
