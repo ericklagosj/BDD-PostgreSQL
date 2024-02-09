@@ -474,7 +474,7 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 
 
 --FORMA 1
-INSERT INTO HUSO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
+INSERT INTO HUSO (ID_HUSO, VALOR,VALOR_2) VALUES
 ('1','-8','18'),
 ('2','-16','18'),
 ('3','-24','18'),
@@ -483,16 +483,16 @@ INSERT INTO HUSO (ID_HUSO_HORARIO, VALOR,VALOR_2) VALUES
 ('6','-48','18'),
 ('7','-56','18'),
 ('8','-64','18'),
-('1','-8','19'),
-('2','-16','19'),
-('3','-24','19'),
-('4','-32','19'),
-('5','-40','19'),
-('6','-48','19'),
-('7','-56','19'),
-('8','-64','19');
+('9','-8','19'),
+('10','-16','19'),
+('11','-24','19'),
+('12','-32','19'),
+('13','-40','19'),
+('14','-48','19'),
+('15','-56','19'),
+('16','-64','19');
 
---PD: de ser asi hay que agregar el atributo valor 2 en tabla "HUSO_HORARIO"
+
 
 
 
