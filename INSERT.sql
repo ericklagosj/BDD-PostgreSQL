@@ -493,9 +493,47 @@ INSERT INTO HUSO (ID_HUSO, VALOR,VALOR_2) VALUES
 ('16','-64','19');
 
 
-
-
-
-
-
-
+INSERT INTO CADENA_COMERCIO(NOMBRE_CADENAC) VALUES
+('Jumbo'),
+('Chuck E. Cheeses'),
+('Tottus'),
+('Fritz'),
+('Pizza Hut'),
+('KFC'),
+('McDonalds'),
+('Cinemark'),
+('Burger King'),
+('Juan Maestro'),
+('Doggis'),
+('Integramédica'),
+('Jardín Infantil Pedro de Valdivia'),
+('Chilexpress'),
+('Mini Market'),
+('Colaciones'),
+('Sodimac'),
+('Memorial 27F'),
+('Rori'),
+('Banco Estado'),
+('Claro'),
+('Starbucks'),
+('SalcoBrand'),
+('Adidas'),
+('Hush Puppies'),
+('Dunkin'),
+('China Wok'),
+('Papa Johns'),
+('Happyland'),
+('Parque Bicentenario'),
+('Essbio Planta La Mochita'),
+('Parque Costanera'),
+('Cancha Huracán'),
+('CESFAM Juan Soto Fernández'),
+('Mallplaza Mirador Bio Bio'),
+('Escuela Óscar Castro Zúñiga'),
+('CESFAM Pedro de Valdivia (Concepción)'),
+('Colegio Alerce'),
+('Palabritas'),
+('Teatro Regional del Bío-Bío'),
+('Cruz Verde'),
+('CIAM'),
+('Parque Aurora de Chile');
