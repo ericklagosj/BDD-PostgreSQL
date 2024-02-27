@@ -536,4 +536,8 @@ INSERT INTO CADENA_COMERCIO(NOMBRE_CADENAC) VALUES
 ('Teatro Regional del Bío-Bío'),
 ('Cruz Verde'),
 ('CIAM'),
-('Parque Aurora de Chile');
+('Parque Aurora de Chile'),
+('Don Cefo');
+
+INSERT INTO LOCOMOCIÓN (NOMBRE_LOCOMOCIÓN,TIPO_LOCOMOCIÓN) VALUES
+('BUS',3)
