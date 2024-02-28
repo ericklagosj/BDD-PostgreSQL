@@ -1,7 +1,7 @@
 
 /*Inserción de Regiones de Chile*/
 INSERT INTO REGION (ID_REGION, NOMBRE_REGION, CUT_REGION) VALUES
-
+('00','NULL','0'),
 ('01', 'Arica y Parinacota', '15'),
 ('02', 'Tarapacá', '01'),
 ('03', 'Antofagasta', '02'),
@@ -20,9 +20,10 @@ INSERT INTO REGION (ID_REGION, NOMBRE_REGION, CUT_REGION) VALUES
 ('16', 'Magallanes', '12');
 
 
+
 /*Inserción de Provincias de Chile*/
 INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGION) VALUES
-
+('00', 'NULL','0',0),
 ('01', 'Arica', '001', '01'), -- Arica y Parinacota
 ('02', 'Parinacota', '002', '01'), 
 ('03', 'El Tamarugal', '003', '02'), -- Tarapacá
@@ -80,6 +81,7 @@ INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGION)
 ('55', 'Tierra del Fuego', '055', '16'),      
 ('56', 'Última Esperanza', '056', '16');
 
+
 /*Inserción de Distritos de Chile*/
 
     
@@ -117,6 +119,7 @@ INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGION)
 
 /*Inserción de Categoría*/
 INSERT INTO CATEGORÍA (ID_CATEGORÍA, NOMBRE_CATEGORÍA) VALUES
+('0', 'NULL'),
 ('1', 'Rural'),
 ('2', 'Urbano'),
 ('3', 'Mixto');
@@ -125,6 +128,7 @@ INSERT INTO CATEGORÍA (ID_CATEGORÍA, NOMBRE_CATEGORÍA) VALUES
 /*Inserción de Comunas de Chile*/
 INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEGORÍA) VALUES
 --ID   NOMBRE  CUT   ID_PRO  C
+('0', 'NULL',0,0,0),
 ('1', 'Arica', '0001', '01', '1'),-- Arica
 ('2', 'Camarones', '0002', '01', '1'),
 ('3', 'General Lagos', '0003', '02', '1'),--Parinacota
@@ -473,6 +477,7 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 ('346', 'Torres del Paine', '0346', '56', '2');
 
 
+
 --FORMA 1
 INSERT INTO HUSO (ID_HUSO, VALOR,VALOR_2) VALUES
 ('1','-8','18'),
@@ -494,6 +499,7 @@ INSERT INTO HUSO (ID_HUSO, VALOR,VALOR_2) VALUES
 
 
 INSERT INTO CADENA_COMERCIO(NOMBRE_CADENAC) VALUES
+('NULL'),
 ('Jumbo'),
 ('Chuck E. Cheeses'),
 ('Tottus'),
@@ -539,6 +545,8 @@ INSERT INTO CADENA_COMERCIO(NOMBRE_CADENAC) VALUES
 ('Parque Aurora de Chile'),
 ('Don Cefo');
 
+
 INSERT INTO LOCOMOCIÓN (NOMBRE_LOCOMOCIÓN,TIPO_LOCOMOCIÓN) VALUES
+('NULL',0),
 ('BUS',3),
 ('RAIL',2);
