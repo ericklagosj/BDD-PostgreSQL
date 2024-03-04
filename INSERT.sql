@@ -129,7 +129,7 @@ INSERT INTO CATEGORÍA (ID_CATEGORÍA, NOMBRE_CATEGORÍA) VALUES
 INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEGORÍA) VALUES
 --ID   NOMBRE  CUT   ID_PRO  C
 ('0', 'NULL',0,0,0),
-('1', 'Arica', '0001', '01', '1'),-- Arica
+('1', 'Arica', '1101', '01', '1'),-- Arica
 ('2', 'Camarones', '0002', '01', '1'),
 ('3', 'General Lagos', '0003', '02', '1'),--Parinacota
 ('4', 'Putre', '0004', '02', '1'),
