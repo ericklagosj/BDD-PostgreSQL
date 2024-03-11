@@ -118,7 +118,7 @@ INSERT INTO PROVINCIA (ID_PROVINCIA, NOMBRE_PROVINCIA, CUT_PROVINCIA, ID_REGION)
 
 
 /*Inserción de Categoría*/
-INSERT INTO CATEGORÍA (ID_CATEGORÍA, NOMBRE_CATEGORÍA) VALUES
+INSERT INTO CATEGORIA (ID_CATEGORIA, NOMBRE_CATEGORIA) VALUES
 ('0', 'NULL'),
 ('1', 'Rural'),
 ('2', 'Urbano'),
@@ -478,28 +478,8 @@ INSERT INTO COMUNA (ID_COMUNA, NOMBRE_COMUNA, CUT_COMUNA, ID_PROVINCIA, ID_CATEG
 
 
 
---FORMA 1
-INSERT INTO HUSO (ID_HUSO, VALOR,VALOR_2) VALUES
-('1','-8','18'),
-('2','-16','18'),
-('3','-24','18'),
-('4','-32','18'),
-('5','-40','18'),
-('6','-48','18'),
-('7','-56','18'),
-('8','-64','18'),
-('9','-8','19'),
-('10','-16','19'),
-('11','-24','19'),
-('12','-32','19'),
-('13','-40','19'),
-('14','-48','19'),
-('15','-56','19'),
-('16','-64','19');
-
-
 INSERT INTO HUSO (ID_HUSO,VALOR) VALUES
-('1','18');
+('1','18'),
 ('2','19');
 
 
@@ -555,3 +535,10 @@ INSERT INTO LOCOMOCIÓN (NOMBRE_LOCOMOCIÓN,TIPO_LOCOMOCIÓN) VALUES
 ('NULL',0),
 ('BUS',3),
 ('RAIL',2);
+
+INSERT INTO CATEGORIA_HISTORICA (ID_TIPO_CATEGORIA,NOM_CATEG) VALUES
+(0,'NULL'),
+(1,'Zona Típica o Pintoresca'),
+(2,'Monumento Histórico'),
+(3,'Santuario de la Naturaleza');
+
